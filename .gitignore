@@ -1,0 +1,35 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Composer
+/vendor/
+composer.phar
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Uploads directory (if it contains sensitive data)
+/uploads/*
+!/uploads/.gitkeep
+
+# Logs
+*.log
+error_log
+access_log
+
+# Cache
+*.cache 
